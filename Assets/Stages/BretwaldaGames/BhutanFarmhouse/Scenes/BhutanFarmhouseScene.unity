@@ -1,0 +1,4757 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!29 &1
+OcclusionCullingSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_OcclusionBakeSettings:
+    smallestOccluder: 5
+    smallestHole: 0.25
+    backfaceThreshold: 100
+  m_SceneGUID: 00000000000000000000000000000000
+  m_OcclusionCullingData: {fileID: 0}
+--- !u!104 &2
+RenderSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 8
+  m_Fog: 1
+  m_FogColor: {r: 0.47794116, g: 0.43446112, b: 0.3408845, a: 1}
+  m_FogMode: 3
+  m_FogDensity: 0.01
+  m_LinearFogStart: 0
+  m_LinearFogEnd: 300
+  m_AmbientSkyColor: {r: 0, g: 0, b: 0, a: 1}
+  m_AmbientEquatorColor: {r: 0.35294116, g: 0.29860398, b: 0.18166089, a: 1}
+  m_AmbientGroundColor: {r: 0.35294116, g: 0.29860398, b: 0.18166089, a: 1}
+  m_AmbientIntensity: 1
+  m_AmbientMode: 3
+  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SkyboxMaterial: {fileID: 2100000, guid: 279b9a6b3e33f8b4b990d36ec7613100, type: 2}
+  m_HaloStrength: 0.5
+  m_FlareStrength: 1
+  m_FlareFadeSpeed: 3
+  m_HaloTexture: {fileID: 0}
+  m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
+  m_DefaultReflectionMode: 0
+  m_DefaultReflectionResolution: 128
+  m_ReflectionBounces: 1
+  m_ReflectionIntensity: 1
+  m_CustomReflection: {fileID: 0}
+  m_Sun: {fileID: 0}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 1}
+--- !u!157 &4
+LightmapSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 11
+  m_GIWorkflowMode: 1
+  m_GISettings:
+    serializedVersion: 2
+    m_BounceScale: 1
+    m_IndirectOutputScale: 1
+    m_AlbedoBoost: 1
+    m_TemporalCoherenceThreshold: 1
+    m_EnvironmentLightingMode: 0
+    m_EnableBakedLightmaps: 1
+    m_EnableRealtimeLightmaps: 0
+  m_LightmapEditorSettings:
+    serializedVersion: 9
+    m_Resolution: 1
+    m_BakeResolution: 50
+    m_TextureWidth: 1024
+    m_TextureHeight: 1024
+    m_AO: 0
+    m_AOMaxDistance: 1
+    m_CompAOExponent: 0
+    m_CompAOExponentDirect: 0
+    m_Padding: 2
+    m_LightmapParameters: {fileID: 0}
+    m_LightmapsBakeMode: 1
+    m_TextureCompression: 0
+    m_FinalGather: 0
+    m_FinalGatherFiltering: 1
+    m_FinalGatherRayCount: 1024
+    m_ReflectionCompression: 2
+    m_MixedBakeMode: 1
+    m_BakeBackend: 0
+    m_PVRSampling: 1
+    m_PVRDirectSampleCount: 32
+    m_PVRSampleCount: 500
+    m_PVRBounces: 2
+    m_PVRFiltering: 0
+    m_PVRFilteringMode: 1
+    m_PVRCulling: 1
+    m_PVRFilteringGaussRadiusDirect: 1
+    m_PVRFilteringGaussRadiusIndirect: 5
+    m_PVRFilteringGaussRadiusAO: 2
+    m_PVRFilteringAtrousColorSigma: 1
+    m_PVRFilteringAtrousNormalSigma: 1
+    m_PVRFilteringAtrousPositionSigma: 1
+  m_LightingDataAsset: {fileID: 0}
+  m_UseShadowmask: 0
+--- !u!196 &5
+NavMeshSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_BuildSettings:
+    serializedVersion: 2
+    agentTypeID: 0
+    agentRadius: 0.5
+    agentHeight: 2
+    agentSlope: 45
+    agentClimb: 0.4
+    ledgeDropHeight: 0
+    maxJumpAcrossDistance: 0
+    minRegionArea: 2
+    manualCellSize: 0
+    cellSize: 0.16666666
+    manualTileSize: 0
+    tileSize: 256
+    accuratePlacement: 0
+  m_NavMeshData: {fileID: 0}
+--- !u!1001 &7076968
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 6.01299667
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .141541287
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 6.09517908
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.620260954
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .784395576
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 7.16073895
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -.959323883
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 1.49011612e-08
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+  m_RootGameObject: {fileID: 688702987}
+  m_IsPrefabParent: 0
+--- !u!1 &29912070
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: f91371871f08e104499d16fe3817380f, type: 2}
+  m_PrefabInternal: {fileID: 1520726319}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 29912071}
+  - component: {fileID: 29912073}
+  - component: {fileID: 29912072}
+  m_Layer: 0
+  m_Name: bhutanFarmLeftBasement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &29912071
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: f91371871f08e104499d16fe3817380f, type: 2}
+  m_PrefabInternal: {fileID: 1520726319}
+  m_GameObject: {fileID: 29912070}
+  m_LocalRotation: {x: 0.00000011920929, y: -1.1344639e-16, z: 1.1344642e-16, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 877508849}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &29912072
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300008, guid: f91371871f08e104499d16fe3817380f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1520726319}
+  m_GameObject: {fileID: 29912070}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1710a0defa13b764ea24467687b0ab61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &29912073
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300008, guid: f91371871f08e104499d16fe3817380f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1520726319}
+  m_GameObject: {fileID: 29912070}
+  m_Mesh: {fileID: 4300010, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &32674920
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+  m_PrefabInternal: {fileID: 47868649}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 32674921}
+  - component: {fileID: 32674923}
+  - component: {fileID: 32674922}
+  m_Layer: 0
+  m_Name: bhutanFarmLeftBasement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &32674921
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+  m_PrefabInternal: {fileID: 47868649}
+  m_GameObject: {fileID: 32674920}
+  m_LocalRotation: {x: 0.00000011920929, y: -1.1344639e-16, z: 1.1344642e-16, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1719489537}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &32674922
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300008, guid: 6f70678e26446e444b5e32bfd45afec0,
+    type: 2}
+  m_PrefabInternal: {fileID: 47868649}
+  m_GameObject: {fileID: 32674920}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1710a0defa13b764ea24467687b0ab61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &32674923
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300008, guid: 6f70678e26446e444b5e32bfd45afec0,
+    type: 2}
+  m_PrefabInternal: {fileID: 47868649}
+  m_GameObject: {fileID: 32674920}
+  m_Mesh: {fileID: 4300010, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1001 &47868649
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 6.75143242
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .141548827
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -17.3230553
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -6.62668705
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: .712217331
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+  m_RootGameObject: {fileID: 1368543897}
+  m_IsPrefabParent: 0
+--- !u!1001 &91444565
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 24.7778168
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .141546071
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -13.9933205
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.517901123
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .855440497
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 7.95356274
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 8.50365448
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 5.96046448e-08
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+  m_RootGameObject: {fileID: 1108435398}
+  m_IsPrefabParent: 0
+--- !u!1 &92856790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100010, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+  m_PrefabInternal: {fileID: 1620510260}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 92856791}
+  - component: {fileID: 92856793}
+  - component: {fileID: 92856792}
+  m_Layer: 0
+  m_Name: bhutanFarmLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &92856791
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+  m_PrefabInternal: {fileID: 1620510260}
+  m_GameObject: {fileID: 92856790}
+  m_LocalRotation: {x: -0.70710677, y: 1.5619343e-23, z: 1.6043745e-16, w: 0.7071069}
+  m_LocalPosition: {x: -5.771528, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 794644604}
+  m_Father: {fileID: 1241947395}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &92856792
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300010, guid: 0266842dedf173d4ea6526527aae4224,
+    type: 2}
+  m_PrefabInternal: {fileID: 1620510260}
+  m_GameObject: {fileID: 92856790}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 08eba697ce8a7614bb4d4efd5a1d055f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &92856793
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300010, guid: 0266842dedf173d4ea6526527aae4224,
+    type: 2}
+  m_PrefabInternal: {fileID: 1620510260}
+  m_GameObject: {fileID: 92856790}
+  m_Mesh: {fileID: 4300008, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &144227253
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+  m_PrefabInternal: {fileID: 617977237}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 144227254}
+  - component: {fileID: 144227256}
+  - component: {fileID: 144227255}
+  m_Layer: 0
+  m_Name: bhutanFarmLeftBasement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &144227254
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+  m_PrefabInternal: {fileID: 617977237}
+  m_GameObject: {fileID: 144227253}
+  m_LocalRotation: {x: 0.00000011920929, y: -1.1344639e-16, z: 1.1344642e-16, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1380347876}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &144227255
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300008, guid: 17dea205650a27047b673dfb7425c0ec,
+    type: 2}
+  m_PrefabInternal: {fileID: 617977237}
+  m_GameObject: {fileID: 144227253}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1710a0defa13b764ea24467687b0ab61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &144227256
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300008, guid: 17dea205650a27047b673dfb7425c0ec,
+    type: 2}
+  m_PrefabInternal: {fileID: 617977237}
+  m_GameObject: {fileID: 144227253}
+  m_Mesh: {fileID: 4300010, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &154053601
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+  m_PrefabInternal: {fileID: 91444565}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 154053602}
+  - component: {fileID: 154053604}
+  - component: {fileID: 154053603}
+  m_Layer: 0
+  m_Name: bhutanFarmRightBasement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &154053602
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+  m_PrefabInternal: {fileID: 91444565}
+  m_GameObject: {fileID: 154053601}
+  m_LocalRotation: {x: 0.00000011920929, y: -1.1344639e-16, z: 1.1344642e-16, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 485109625}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &154053603
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9,
+    type: 2}
+  m_PrefabInternal: {fileID: 91444565}
+  m_GameObject: {fileID: 154053601}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1710a0defa13b764ea24467687b0ab61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &154053604
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9,
+    type: 2}
+  m_PrefabInternal: {fileID: 91444565}
+  m_GameObject: {fileID: 154053601}
+  m_Mesh: {fileID: 4300002, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &200202941
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 200202943}
+  - component: {fileID: 200202942}
+  m_Layer: 0
+  m_Name: Directional light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &200202942
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 200202941}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 1, g: 0.93306285, b: 0.75735295, a: 1}
+  m_Intensity: 1.7
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 2
+    m_Resolution: 3
+    m_CustomResolution: -1
+    m_Strength: 0.933
+    m_Bias: 0.1
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 1
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &200202943
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 200202941}
+  m_LocalRotation: {x: -0.19064169, y: -0.506629, z: 0.27214095, w: -0.79556406}
+  m_LocalPosition: {x: -62.77242, y: 6.563553, z: 14.491786}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &208379944
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 28.5753441
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .141543552
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -.49452734
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.762716711
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .646732807
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+  m_RootGameObject: {fileID: 627571950}
+  m_IsPrefabParent: 0
+--- !u!1 &266494885
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 266494889}
+  - component: {fileID: 266494888}
+  - component: {fileID: 266494887}
+  - component: {fileID: 266494886}
+  m_Layer: 0
+  m_Name: Terrain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!23 &266494886
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 266494885}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: a9d13d9f040abc54b969ca33684f0f0e, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!64 &266494887
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 266494885}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Convex: 0
+  m_InflateMesh: 0
+  m_SkinWidth: 0.01
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!33 &266494888
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 266494885}
+  m_Mesh: {fileID: 10210, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &266494889
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 266494885}
+  m_LocalRotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: 30.18156, y: 0.14154339, z: -10.392006}
+  m_LocalScale: {x: 1000, y: 1000, z: 1000}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 12
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &272348593
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+  m_PrefabInternal: {fileID: 91444565}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 272348594}
+  - component: {fileID: 272348596}
+  - component: {fileID: 272348595}
+  m_Layer: 0
+  m_Name: bhutanFarmMainBasement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &272348594
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+  m_PrefabInternal: {fileID: 91444565}
+  m_GameObject: {fileID: 272348593}
+  m_LocalRotation: {x: 0.00000011920929, y: -1.1344639e-16, z: 1.1344642e-16, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1508763938}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &272348595
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9,
+    type: 2}
+  m_PrefabInternal: {fileID: 91444565}
+  m_GameObject: {fileID: 272348593}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1710a0defa13b764ea24467687b0ab61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &272348596
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9,
+    type: 2}
+  m_PrefabInternal: {fileID: 91444565}
+  m_GameObject: {fileID: 272348593}
+  m_Mesh: {fileID: 4300006, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &278952432
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+  m_PrefabInternal: {fileID: 1620510260}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 278952433}
+  - component: {fileID: 278952435}
+  - component: {fileID: 278952434}
+  m_Layer: 0
+  m_Name: bhutanFarmMain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &278952433
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+  m_PrefabInternal: {fileID: 1620510260}
+  m_GameObject: {fileID: 278952432}
+  m_LocalRotation: {x: -0.70710677, y: 1.5619343e-23, z: 1.6043745e-16, w: 0.7071069}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1857030058}
+  m_Father: {fileID: 1241947395}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &278952434
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: 0266842dedf173d4ea6526527aae4224,
+    type: 2}
+  m_PrefabInternal: {fileID: 1620510260}
+  m_GameObject: {fileID: 278952432}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 08eba697ce8a7614bb4d4efd5a1d055f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &278952435
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: 0266842dedf173d4ea6526527aae4224,
+    type: 2}
+  m_PrefabInternal: {fileID: 1620510260}
+  m_GameObject: {fileID: 278952432}
+  m_Mesh: {fileID: 4300004, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &286774180
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 286774182}
+  - component: {fileID: 286774181}
+  m_Layer: 0
+  m_Name: Reflection Probe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!215 &286774181
+ReflectionProbe:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 286774180}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Type: 0
+  m_Mode: 1
+  m_RefreshMode: 0
+  m_TimeSlicingMode: 0
+  m_Resolution: 128
+  m_UpdateFrequency: 0
+  m_BoxSize: {x: 62.77504, y: 10, z: 72.04181}
+  m_BoxOffset: {x: 6.009857, y: 0, z: -0.045355797}
+  m_NearClip: 0.3
+  m_FarClip: 1000
+  m_ShadowDistance: 100
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IntensityMultiplier: 1
+  m_BlendDistance: 1
+  m_HDR: 1
+  m_BoxProjection: 0
+  m_RenderDynamicObjects: 0
+  m_UseOcclusionCulling: 1
+  m_Importance: 1
+  m_CustomBakedTexture: {fileID: 0}
+--- !u!4 &286774182
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 286774180}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 13.16, y: 4.93, z: -4.71}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &334867842
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+  m_PrefabInternal: {fileID: 208379944}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 334867843}
+  - component: {fileID: 334867845}
+  - component: {fileID: 334867844}
+  m_Layer: 0
+  m_Name: bhutanFarmRightBasement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &334867843
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+  m_PrefabInternal: {fileID: 208379944}
+  m_GameObject: {fileID: 334867842}
+  m_LocalRotation: {x: 0.00000011920929, y: -1.1344639e-16, z: 1.1344642e-16, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 934485347}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &334867844
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: 7e3a441f5678e9d4098145a98f64e1e7,
+    type: 2}
+  m_PrefabInternal: {fileID: 208379944}
+  m_GameObject: {fileID: 334867842}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1710a0defa13b764ea24467687b0ab61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &334867845
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: 7e3a441f5678e9d4098145a98f64e1e7,
+    type: 2}
+  m_PrefabInternal: {fileID: 208379944}
+  m_GameObject: {fileID: 334867842}
+  m_Mesh: {fileID: 4300002, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &348495433
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+  m_PrefabInternal: {fileID: 7076968}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 348495434}
+  - component: {fileID: 348495436}
+  - component: {fileID: 348495435}
+  m_Layer: 0
+  m_Name: bhutanFarmMainBasement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &348495434
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+  m_PrefabInternal: {fileID: 7076968}
+  m_GameObject: {fileID: 348495433}
+  m_LocalRotation: {x: 0.00000011920929, y: -1.1344639e-16, z: 1.1344642e-16, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1530277445}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &348495435
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: 043d7724bd7507943bf0378b45efaabe,
+    type: 2}
+  m_PrefabInternal: {fileID: 7076968}
+  m_GameObject: {fileID: 348495433}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1710a0defa13b764ea24467687b0ab61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &348495436
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: 043d7724bd7507943bf0378b45efaabe,
+    type: 2}
+  m_PrefabInternal: {fileID: 7076968}
+  m_GameObject: {fileID: 348495433}
+  m_Mesh: {fileID: 4300006, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &432513512
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+  m_PrefabInternal: {fileID: 47868649}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 432513513}
+  - component: {fileID: 432513515}
+  - component: {fileID: 432513514}
+  m_Layer: 0
+  m_Name: bhutanFarmMainBasement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &432513513
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+  m_PrefabInternal: {fileID: 47868649}
+  m_GameObject: {fileID: 432513512}
+  m_LocalRotation: {x: 0.00000011920929, y: -1.1344639e-16, z: 1.1344642e-16, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1510092500}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &432513514
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: 6f70678e26446e444b5e32bfd45afec0,
+    type: 2}
+  m_PrefabInternal: {fileID: 47868649}
+  m_GameObject: {fileID: 432513512}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1710a0defa13b764ea24467687b0ab61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &432513515
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: 6f70678e26446e444b5e32bfd45afec0,
+    type: 2}
+  m_PrefabInternal: {fileID: 47868649}
+  m_GameObject: {fileID: 432513512}
+  m_Mesh: {fileID: 4300006, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &434847005
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+  m_PrefabInternal: {fileID: 208379944}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 434847006}
+  - component: {fileID: 434847008}
+  - component: {fileID: 434847007}
+  m_Layer: 0
+  m_Name: bhutanFarmLeftBasement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &434847006
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+  m_PrefabInternal: {fileID: 208379944}
+  m_GameObject: {fileID: 434847005}
+  m_LocalRotation: {x: 0.00000011920929, y: -1.1344639e-16, z: 1.1344642e-16, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 916220752}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &434847007
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300008, guid: 7e3a441f5678e9d4098145a98f64e1e7,
+    type: 2}
+  m_PrefabInternal: {fileID: 208379944}
+  m_GameObject: {fileID: 434847005}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1710a0defa13b764ea24467687b0ab61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &434847008
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300008, guid: 7e3a441f5678e9d4098145a98f64e1e7,
+    type: 2}
+  m_PrefabInternal: {fileID: 208379944}
+  m_GameObject: {fileID: 434847005}
+  m_Mesh: {fileID: 4300010, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &485109624
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+  m_PrefabInternal: {fileID: 91444565}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 485109625}
+  - component: {fileID: 485109627}
+  - component: {fileID: 485109626}
+  m_Layer: 0
+  m_Name: bhutanFarmRight_
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &485109625
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+  m_PrefabInternal: {fileID: 91444565}
+  m_GameObject: {fileID: 485109624}
+  m_LocalRotation: {x: -0.70710677, y: 1.5619343e-23, z: 1.6043745e-16, w: 0.7071069}
+  m_LocalPosition: {x: 7.9535627, y: 0.000000059604645, z: 8.5036545}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 154053602}
+  m_Father: {fileID: 1108435399}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &485109626
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9,
+    type: 2}
+  m_PrefabInternal: {fileID: 91444565}
+  m_GameObject: {fileID: 485109624}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1710a0defa13b764ea24467687b0ab61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &485109627
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9,
+    type: 2}
+  m_PrefabInternal: {fileID: 91444565}
+  m_GameObject: {fileID: 485109624}
+  m_Mesh: {fileID: 4300012, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &498030846
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+  m_PrefabInternal: {fileID: 47868649}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 498030847}
+  - component: {fileID: 498030849}
+  - component: {fileID: 498030848}
+  m_Layer: 0
+  m_Name: bhutanFarmRight_
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &498030847
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+  m_PrefabInternal: {fileID: 47868649}
+  m_GameObject: {fileID: 498030846}
+  m_LocalRotation: {x: -0.70710677, y: 1.5619343e-23, z: 1.6043745e-16, w: 0.7071069}
+  m_LocalPosition: {x: 5.8874784, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 993792738}
+  m_Father: {fileID: 1368543898}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &498030848
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: 6f70678e26446e444b5e32bfd45afec0,
+    type: 2}
+  m_PrefabInternal: {fileID: 47868649}
+  m_GameObject: {fileID: 498030846}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: d35be5e6030fefb439149c7cb9cfd3bd, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &498030849
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: 6f70678e26446e444b5e32bfd45afec0,
+    type: 2}
+  m_PrefabInternal: {fileID: 47868649}
+  m_GameObject: {fileID: 498030846}
+  m_Mesh: {fileID: 4300012, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &590392105
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+  m_PrefabInternal: {fileID: 1056594074}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 590392106}
+  - component: {fileID: 590392108}
+  - component: {fileID: 590392107}
+  m_Layer: 0
+  m_Name: bhutanFarmRight_
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &590392106
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+  m_PrefabInternal: {fileID: 1056594074}
+  m_GameObject: {fileID: 590392105}
+  m_LocalRotation: {x: -0.70710677, y: 1.5619343e-23, z: 1.6043745e-16, w: 0.7071069}
+  m_LocalPosition: {x: 5.8874784, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2000186525}
+  m_Father: {fileID: 717234488}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &590392107
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300008, guid: 6a804a0bb3595294ab0de60dc6d2fa70,
+    type: 2}
+  m_PrefabInternal: {fileID: 1056594074}
+  m_GameObject: {fileID: 590392105}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 9b114a742d008334c93968811e285ef9, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &590392108
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300008, guid: 6a804a0bb3595294ab0de60dc6d2fa70,
+    type: 2}
+  m_PrefabInternal: {fileID: 1056594074}
+  m_GameObject: {fileID: 590392105}
+  m_Mesh: {fileID: 4300012, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1001 &617977237
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 1.05683327
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .14153941
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -29.7885742
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.203981519
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .97897476
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+  m_RootGameObject: {fileID: 1802187649}
+  m_IsPrefabParent: 0
+--- !u!1 &627571950
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+  m_PrefabInternal: {fileID: 208379944}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 627571951}
+  m_Layer: 0
+  m_Name: bhutanFarmhouseGray
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &627571951
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400012, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+  m_PrefabInternal: {fileID: 208379944}
+  m_GameObject: {fileID: 627571950}
+  m_LocalRotation: {x: 0, y: -0.7627167, z: 0, w: 0.6467328}
+  m_LocalPosition: {x: 28.575344, y: 0.14154355, z: -0.49452734}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 916220752}
+  - {fileID: 659299788}
+  - {fileID: 934485347}
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &635449438
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+  m_PrefabInternal: {fileID: 91444565}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 635449439}
+  - component: {fileID: 635449441}
+  - component: {fileID: 635449440}
+  m_Layer: 0
+  m_Name: bhutanFarmLeftBasement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &635449439
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+  m_PrefabInternal: {fileID: 91444565}
+  m_GameObject: {fileID: 635449438}
+  m_LocalRotation: {x: 0.00000011920929, y: -1.1344639e-16, z: 1.1344642e-16, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1757170294}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &635449440
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300008, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9,
+    type: 2}
+  m_PrefabInternal: {fileID: 91444565}
+  m_GameObject: {fileID: 635449438}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1710a0defa13b764ea24467687b0ab61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &635449441
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300008, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9,
+    type: 2}
+  m_PrefabInternal: {fileID: 91444565}
+  m_GameObject: {fileID: 635449438}
+  m_Mesh: {fileID: 4300010, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &659299787
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+  m_PrefabInternal: {fileID: 208379944}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 659299788}
+  - component: {fileID: 659299790}
+  - component: {fileID: 659299789}
+  m_Layer: 0
+  m_Name: bhutanFarmMain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &659299788
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+  m_PrefabInternal: {fileID: 208379944}
+  m_GameObject: {fileID: 659299787}
+  m_LocalRotation: {x: -0.70710677, y: 1.5619343e-23, z: 1.6043745e-16, w: 0.7071069}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1029047812}
+  m_Father: {fileID: 627571951}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &659299789
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: 7e3a441f5678e9d4098145a98f64e1e7,
+    type: 2}
+  m_PrefabInternal: {fileID: 208379944}
+  m_GameObject: {fileID: 659299787}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 7788cfbfa2bb26c48abe0800006b177d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &659299790
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: 7e3a441f5678e9d4098145a98f64e1e7,
+    type: 2}
+  m_PrefabInternal: {fileID: 208379944}
+  m_GameObject: {fileID: 659299787}
+  m_Mesh: {fileID: 4300004, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &688702987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+  m_PrefabInternal: {fileID: 7076968}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 688702988}
+  m_Layer: 0
+  m_Name: bhutanFarmhouseWhite
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &688702988
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400012, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+  m_PrefabInternal: {fileID: 7076968}
+  m_GameObject: {fileID: 688702987}
+  m_LocalRotation: {x: 0, y: -0.62026095, z: 0, w: 0.7843956}
+  m_LocalPosition: {x: 6.0129967, y: 0.14154129, z: 6.095179}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1763552806}
+  - {fileID: 1530277445}
+  - {fileID: 1534327665}
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &717234487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+  m_PrefabInternal: {fileID: 1056594074}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 717234488}
+  m_Layer: 0
+  m_Name: bhutanFarmhouseWood2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &717234488
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+  m_PrefabInternal: {fileID: 1056594074}
+  m_GameObject: {fileID: 717234487}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 20.290611, y: 0.14153941, z: -27.726212}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2009532369}
+  - {fileID: 1700813704}
+  - {fileID: 590392106}
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &770795664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+  m_PrefabInternal: {fileID: 7076968}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 770795665}
+  - component: {fileID: 770795667}
+  - component: {fileID: 770795666}
+  m_Layer: 0
+  m_Name: bhutanFarmLeftBasement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &770795665
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+  m_PrefabInternal: {fileID: 7076968}
+  m_GameObject: {fileID: 770795664}
+  m_LocalRotation: {x: 0.00000011920929, y: -1.1344639e-16, z: 1.1344642e-16, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1763552806}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &770795666
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300008, guid: 043d7724bd7507943bf0378b45efaabe,
+    type: 2}
+  m_PrefabInternal: {fileID: 7076968}
+  m_GameObject: {fileID: 770795664}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1710a0defa13b764ea24467687b0ab61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &770795667
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300008, guid: 043d7724bd7507943bf0378b45efaabe,
+    type: 2}
+  m_PrefabInternal: {fileID: 7076968}
+  m_GameObject: {fileID: 770795664}
+  m_Mesh: {fileID: 4300010, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &794644603
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+  m_PrefabInternal: {fileID: 1620510260}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 794644604}
+  - component: {fileID: 794644606}
+  - component: {fileID: 794644605}
+  m_Layer: 0
+  m_Name: bhutanFarmLeftBasement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &794644604
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+  m_PrefabInternal: {fileID: 1620510260}
+  m_GameObject: {fileID: 794644603}
+  m_LocalRotation: {x: 0.00000011920929, y: -1.1344639e-16, z: 1.1344642e-16, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 92856791}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &794644605
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300008, guid: 0266842dedf173d4ea6526527aae4224,
+    type: 2}
+  m_PrefabInternal: {fileID: 1620510260}
+  m_GameObject: {fileID: 794644603}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1710a0defa13b764ea24467687b0ab61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &794644606
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300008, guid: 0266842dedf173d4ea6526527aae4224,
+    type: 2}
+  m_PrefabInternal: {fileID: 1620510260}
+  m_GameObject: {fileID: 794644603}
+  m_Mesh: {fileID: 4300010, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &877508848
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100010, guid: f91371871f08e104499d16fe3817380f, type: 2}
+  m_PrefabInternal: {fileID: 1520726319}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 877508849}
+  - component: {fileID: 877508851}
+  - component: {fileID: 877508850}
+  m_Layer: 0
+  m_Name: bhutanFarmLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &877508849
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: f91371871f08e104499d16fe3817380f, type: 2}
+  m_PrefabInternal: {fileID: 1520726319}
+  m_GameObject: {fileID: 877508848}
+  m_LocalRotation: {x: -0.70710677, y: 1.5619343e-23, z: 1.6043745e-16, w: 0.7071069}
+  m_LocalPosition: {x: -7.1060123, y: 0, z: 16.61702}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 29912071}
+  m_Father: {fileID: 1006048642}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &877508850
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300010, guid: f91371871f08e104499d16fe3817380f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1520726319}
+  m_GameObject: {fileID: 877508848}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: e749f699f66516844ab4b3f6d0b5ccd7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &877508851
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300010, guid: f91371871f08e104499d16fe3817380f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1520726319}
+  m_GameObject: {fileID: 877508848}
+  m_Mesh: {fileID: 4300008, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &880578013
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 880578015}
+  - component: {fileID: 880578014}
+  m_Layer: 0
+  m_Name: Directional light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &880578014
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 880578013}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 0.50848836, g: 0.5805729, b: 0.6985294, a: 1}
+  m_Intensity: 0.8
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: 3
+    m_CustomResolution: -1
+    m_Strength: 0.875
+    m_Bias: 0.1
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 1
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &880578015
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 880578013}
+  m_LocalRotation: {x: 0, y: -1, z: 0, w: -0.00000004371139}
+  m_LocalPosition: {x: -62.77242, y: 6.563553, z: 14.491786}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &916220751
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100010, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+  m_PrefabInternal: {fileID: 208379944}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 916220752}
+  - component: {fileID: 916220754}
+  - component: {fileID: 916220753}
+  m_Layer: 0
+  m_Name: bhutanFarmLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &916220752
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+  m_PrefabInternal: {fileID: 208379944}
+  m_GameObject: {fileID: 916220751}
+  m_LocalRotation: {x: -0.70710677, y: 1.5619343e-23, z: 1.6043745e-16, w: 0.7071069}
+  m_LocalPosition: {x: -5.771528, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 434847006}
+  m_Father: {fileID: 627571951}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &916220753
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300010, guid: 7e3a441f5678e9d4098145a98f64e1e7,
+    type: 2}
+  m_PrefabInternal: {fileID: 208379944}
+  m_GameObject: {fileID: 916220751}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 7788cfbfa2bb26c48abe0800006b177d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &916220754
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300010, guid: 7e3a441f5678e9d4098145a98f64e1e7,
+    type: 2}
+  m_PrefabInternal: {fileID: 208379944}
+  m_GameObject: {fileID: 916220751}
+  m_Mesh: {fileID: 4300008, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &929276813
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+  m_PrefabInternal: {fileID: 1620510260}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 929276814}
+  - component: {fileID: 929276816}
+  - component: {fileID: 929276815}
+  m_Layer: 0
+  m_Name: bhutanFarmRight_
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &929276814
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+  m_PrefabInternal: {fileID: 1620510260}
+  m_GameObject: {fileID: 929276813}
+  m_LocalRotation: {x: -0.66377527, y: 0.24372584, z: 0.24372602, w: 0.6637754}
+  m_LocalPosition: {x: 8.373772, y: 0.00000023841858, z: 2.8459077}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1963546999}
+  m_Father: {fileID: 1241947395}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &929276815
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: 0266842dedf173d4ea6526527aae4224,
+    type: 2}
+  m_PrefabInternal: {fileID: 1620510260}
+  m_GameObject: {fileID: 929276813}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 08eba697ce8a7614bb4d4efd5a1d055f, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &929276816
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: 0266842dedf173d4ea6526527aae4224,
+    type: 2}
+  m_PrefabInternal: {fileID: 1620510260}
+  m_GameObject: {fileID: 929276813}
+  m_Mesh: {fileID: 4300012, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &934485346
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+  m_PrefabInternal: {fileID: 208379944}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 934485347}
+  - component: {fileID: 934485349}
+  - component: {fileID: 934485348}
+  m_Layer: 0
+  m_Name: bhutanFarmRight_
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &934485347
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+  m_PrefabInternal: {fileID: 208379944}
+  m_GameObject: {fileID: 934485346}
+  m_LocalRotation: {x: -0.70710677, y: 1.5619343e-23, z: 1.6043745e-16, w: 0.7071069}
+  m_LocalPosition: {x: 5.8874784, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 334867843}
+  m_Father: {fileID: 627571951}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &934485348
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: 7e3a441f5678e9d4098145a98f64e1e7,
+    type: 2}
+  m_PrefabInternal: {fileID: 208379944}
+  m_GameObject: {fileID: 934485346}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 7788cfbfa2bb26c48abe0800006b177d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &934485349
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: 7e3a441f5678e9d4098145a98f64e1e7,
+    type: 2}
+  m_PrefabInternal: {fileID: 208379944}
+  m_GameObject: {fileID: 934485346}
+  m_Mesh: {fileID: 4300012, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &993792737
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+  m_PrefabInternal: {fileID: 47868649}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 993792738}
+  - component: {fileID: 993792740}
+  - component: {fileID: 993792739}
+  m_Layer: 0
+  m_Name: bhutanFarmRightBasement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &993792738
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+  m_PrefabInternal: {fileID: 47868649}
+  m_GameObject: {fileID: 993792737}
+  m_LocalRotation: {x: 0.00000011920929, y: -1.1344639e-16, z: 1.1344642e-16, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 498030847}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &993792739
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: 6f70678e26446e444b5e32bfd45afec0,
+    type: 2}
+  m_PrefabInternal: {fileID: 47868649}
+  m_GameObject: {fileID: 993792737}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1710a0defa13b764ea24467687b0ab61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &993792740
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: 6f70678e26446e444b5e32bfd45afec0,
+    type: 2}
+  m_PrefabInternal: {fileID: 47868649}
+  m_GameObject: {fileID: 993792737}
+  m_Mesh: {fileID: 4300002, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &1006048641
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+  m_PrefabInternal: {fileID: 1520726319}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1006048642}
+  m_Layer: 0
+  m_Name: bhutanFarmhouseWhiteGreenRoof
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1006048642
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+  m_PrefabInternal: {fileID: 1520726319}
+  m_GameObject: {fileID: 1006048641}
+  m_LocalRotation: {x: 0, y: -0.97304124, z: 0, w: -0.23063144}
+  m_LocalPosition: {x: 28.729725, y: 0.141541, z: 15.481081}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 877508849}
+  - {fileID: 1788519770}
+  - {fileID: 1011952700}
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1011952699
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: f91371871f08e104499d16fe3817380f, type: 2}
+  m_PrefabInternal: {fileID: 1520726319}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1011952700}
+  - component: {fileID: 1011952702}
+  - component: {fileID: 1011952701}
+  m_Layer: 0
+  m_Name: bhutanFarmRight_
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1011952700
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: f91371871f08e104499d16fe3817380f, type: 2}
+  m_PrefabInternal: {fileID: 1520726319}
+  m_GameObject: {fileID: 1011952699}
+  m_LocalRotation: {x: -0.21000348, y: 0.67520237, z: 0.6752028, w: 0.21000369}
+  m_LocalPosition: {x: 8.798054, y: -0.00000010430813, z: -0.9975704}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2081617266}
+  m_Father: {fileID: 1006048642}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1011952701
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: f91371871f08e104499d16fe3817380f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1520726319}
+  m_GameObject: {fileID: 1011952699}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: e749f699f66516844ab4b3f6d0b5ccd7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1011952702
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: f91371871f08e104499d16fe3817380f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1520726319}
+  m_GameObject: {fileID: 1011952699}
+  m_Mesh: {fileID: 4300012, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &1024258324
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+  m_PrefabInternal: {fileID: 617977237}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1024258325}
+  - component: {fileID: 1024258327}
+  - component: {fileID: 1024258326}
+  m_Layer: 0
+  m_Name: bhutanFarmRight_
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1024258325
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+  m_PrefabInternal: {fileID: 617977237}
+  m_GameObject: {fileID: 1024258324}
+  m_LocalRotation: {x: -0.70710677, y: 1.5619343e-23, z: 1.6043745e-16, w: 0.7071069}
+  m_LocalPosition: {x: 5.8874784, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2014820582}
+  m_Father: {fileID: 1802187650}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1024258326
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: 17dea205650a27047b673dfb7425c0ec,
+    type: 2}
+  m_PrefabInternal: {fileID: 617977237}
+  m_GameObject: {fileID: 1024258324}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: dc0ead42b40b15f45b2ab0cbf5bfc39a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1024258327
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: 17dea205650a27047b673dfb7425c0ec,
+    type: 2}
+  m_PrefabInternal: {fileID: 617977237}
+  m_GameObject: {fileID: 1024258324}
+  m_Mesh: {fileID: 4300012, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &1029047811
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+  m_PrefabInternal: {fileID: 208379944}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1029047812}
+  - component: {fileID: 1029047814}
+  - component: {fileID: 1029047813}
+  m_Layer: 0
+  m_Name: bhutanFarmMainBasement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1029047812
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 7e3a441f5678e9d4098145a98f64e1e7, type: 2}
+  m_PrefabInternal: {fileID: 208379944}
+  m_GameObject: {fileID: 1029047811}
+  m_LocalRotation: {x: 0.00000011920929, y: -1.1344639e-16, z: 1.1344642e-16, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 659299788}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1029047813
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: 7e3a441f5678e9d4098145a98f64e1e7,
+    type: 2}
+  m_PrefabInternal: {fileID: 208379944}
+  m_GameObject: {fileID: 1029047811}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1710a0defa13b764ea24467687b0ab61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1029047814
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: 7e3a441f5678e9d4098145a98f64e1e7,
+    type: 2}
+  m_PrefabInternal: {fileID: 208379944}
+  m_GameObject: {fileID: 1029047811}
+  m_Mesh: {fileID: 4300006, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1001 &1056594074
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 20.2906113
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .14153941
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -27.7262115
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+  m_RootGameObject: {fileID: 717234487}
+  m_IsPrefabParent: 0
+--- !u!1 &1108435398
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100012, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+  m_PrefabInternal: {fileID: 91444565}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1108435399}
+  m_Layer: 0
+  m_Name: bhutanFarmhouseBrick
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1108435399
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400012, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+  m_PrefabInternal: {fileID: 91444565}
+  m_GameObject: {fileID: 1108435398}
+  m_LocalRotation: {x: 0, y: -0.5179011, z: 0, w: 0.8554405}
+  m_LocalPosition: {x: 24.777817, y: 0.14154607, z: -13.99332}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1757170294}
+  - {fileID: 1508763938}
+  - {fileID: 485109625}
+  m_Father: {fileID: 0}
+  m_RootOrder: 4
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1143703807
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1143703809}
+  - component: {fileID: 1143703808}
+  m_Layer: 0
+  m_Name: Directional light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1143703808
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1143703807}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 0.50848836, g: 0.5805729, b: 0.6985294, a: 1}
+  m_Intensity: 0.46
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: 3
+    m_CustomResolution: -1
+    m_Strength: 0.875
+    m_Bias: 0.1
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 1
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1143703809
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1143703807}
+  m_LocalRotation: {x: -0.000000030908623, y: 0.7071068, z: -0.7071068, w: -0.000000030908623}
+  m_LocalPosition: {x: -62.77242, y: 6.563553, z: 14.491786}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1241947394
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+  m_PrefabInternal: {fileID: 1620510260}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1241947395}
+  m_Layer: 0
+  m_Name: bhutanFarmhouseWhiteRedRoof
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1241947395
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+  m_PrefabInternal: {fileID: 1620510260}
+  m_GameObject: {fileID: 1241947394}
+  m_LocalRotation: {x: 0, y: 0.99720794, z: 0, w: -0.07467563}
+  m_LocalPosition: {x: 19.038923, y: 0.14153646, z: 24.30155}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 92856791}
+  - {fileID: 278952433}
+  - {fileID: 929276814}
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1291881701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1291881706}
+  - component: {fileID: 1291881705}
+  - component: {fileID: 1291881704}
+  - component: {fileID: 1291881703}
+  - component: {fileID: 1291881702}
+  - component: {fileID: 1291881707}
+  m_Layer: 0
+  m_Name: camera
+  m_TagString: MainCamera
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!81 &1291881702
+AudioListener:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1291881701}
+  m_Enabled: 1
+--- !u!124 &1291881703
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1291881701}
+  m_Enabled: 1
+--- !u!92 &1291881704
+Behaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1291881701}
+  m_Enabled: 1
+--- !u!20 &1291881705
+Camera:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1291881701}
+  m_Enabled: 1
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0.019607844}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.3
+  far clip plane: 1000
+  field of view: 71
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: -1
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 0
+  m_AllowMSAA: 1
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+  m_StereoMirrorMode: 0
+--- !u!4 &1291881706
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1291881701}
+  m_LocalRotation: {x: 0.16649808, y: 0.82936937, z: -0.3289574, w: 0.41977602}
+  m_LocalPosition: {x: -5.683541, y: 18.221136, z: 16.316538}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!45 &1291881707
+Skybox:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1291881701}
+  m_Enabled: 1
+  m_CustomSkybox: {fileID: 2100000, guid: 279b9a6b3e33f8b4b990d36ec7613100, type: 2}
+--- !u!1 &1292759649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+  m_PrefabInternal: {fileID: 617977237}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1292759650}
+  - component: {fileID: 1292759652}
+  - component: {fileID: 1292759651}
+  m_Layer: 0
+  m_Name: bhutanFarmMain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1292759650
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+  m_PrefabInternal: {fileID: 617977237}
+  m_GameObject: {fileID: 1292759649}
+  m_LocalRotation: {x: -0.70710677, y: 1.5619343e-23, z: 1.6043745e-16, w: 0.7071069}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 2135433523}
+  m_Father: {fileID: 1802187650}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1292759651
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: 17dea205650a27047b673dfb7425c0ec,
+    type: 2}
+  m_PrefabInternal: {fileID: 617977237}
+  m_GameObject: {fileID: 1292759649}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: dc0ead42b40b15f45b2ab0cbf5bfc39a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1292759652
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: 17dea205650a27047b673dfb7425c0ec,
+    type: 2}
+  m_PrefabInternal: {fileID: 617977237}
+  m_GameObject: {fileID: 1292759649}
+  m_Mesh: {fileID: 4300004, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &1314327758
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+  m_PrefabInternal: {fileID: 7076968}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1314327759}
+  - component: {fileID: 1314327761}
+  - component: {fileID: 1314327760}
+  m_Layer: 0
+  m_Name: bhutanFarmRightBasement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1314327759
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+  m_PrefabInternal: {fileID: 7076968}
+  m_GameObject: {fileID: 1314327758}
+  m_LocalRotation: {x: 0.00000011920929, y: -1.1344639e-16, z: 1.1344642e-16, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1534327665}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1314327760
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: 043d7724bd7507943bf0378b45efaabe,
+    type: 2}
+  m_PrefabInternal: {fileID: 7076968}
+  m_GameObject: {fileID: 1314327758}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1710a0defa13b764ea24467687b0ab61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1314327761
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: 043d7724bd7507943bf0378b45efaabe,
+    type: 2}
+  m_PrefabInternal: {fileID: 7076968}
+  m_GameObject: {fileID: 1314327758}
+  m_Mesh: {fileID: 4300002, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &1317147385
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100010, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+  m_PrefabInternal: {fileID: 1056594074}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1317147386}
+  - component: {fileID: 1317147388}
+  - component: {fileID: 1317147387}
+  m_Layer: 0
+  m_Name: bhutanFarmMainBasement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1317147386
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+  m_PrefabInternal: {fileID: 1056594074}
+  m_GameObject: {fileID: 1317147385}
+  m_LocalRotation: {x: 0.00000011920929, y: -1.1344639e-16, z: 1.1344642e-16, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1700813704}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1317147387
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: 6a804a0bb3595294ab0de60dc6d2fa70,
+    type: 2}
+  m_PrefabInternal: {fileID: 1056594074}
+  m_GameObject: {fileID: 1317147385}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1710a0defa13b764ea24467687b0ab61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1317147388
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: 6a804a0bb3595294ab0de60dc6d2fa70,
+    type: 2}
+  m_PrefabInternal: {fileID: 1056594074}
+  m_GameObject: {fileID: 1317147385}
+  m_Mesh: {fileID: 4300006, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &1359517499
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+  m_PrefabInternal: {fileID: 1056594074}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1359517500}
+  - component: {fileID: 1359517502}
+  - component: {fileID: 1359517501}
+  m_Layer: 0
+  m_Name: bhutanFarmLeftBasement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1359517500
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+  m_PrefabInternal: {fileID: 1056594074}
+  m_GameObject: {fileID: 1359517499}
+  m_LocalRotation: {x: 0.00000011920929, y: -1.1344639e-16, z: 1.1344642e-16, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 2009532369}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1359517501
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: 6a804a0bb3595294ab0de60dc6d2fa70,
+    type: 2}
+  m_PrefabInternal: {fileID: 1056594074}
+  m_GameObject: {fileID: 1359517499}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1710a0defa13b764ea24467687b0ab61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1359517502
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: 6a804a0bb3595294ab0de60dc6d2fa70,
+    type: 2}
+  m_PrefabInternal: {fileID: 1056594074}
+  m_GameObject: {fileID: 1359517499}
+  m_Mesh: {fileID: 4300010, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &1368543897
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100012, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+  m_PrefabInternal: {fileID: 47868649}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1368543898}
+  m_Layer: 0
+  m_Name: bhutanFarmhouse
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1368543898
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400012, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+  m_PrefabInternal: {fileID: 47868649}
+  m_GameObject: {fileID: 1368543897}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.7514324, y: 0.14154883, z: -17.323055}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1719489537}
+  - {fileID: 1510092500}
+  - {fileID: 498030847}
+  m_Father: {fileID: 0}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1380347875
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100010, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+  m_PrefabInternal: {fileID: 617977237}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1380347876}
+  - component: {fileID: 1380347878}
+  - component: {fileID: 1380347877}
+  m_Layer: 0
+  m_Name: bhutanFarmLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1380347876
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+  m_PrefabInternal: {fileID: 617977237}
+  m_GameObject: {fileID: 1380347875}
+  m_LocalRotation: {x: -0.70710677, y: 1.5619343e-23, z: 1.6043745e-16, w: 0.7071069}
+  m_LocalPosition: {x: -5.771528, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 144227254}
+  m_Father: {fileID: 1802187650}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1380347877
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300010, guid: 17dea205650a27047b673dfb7425c0ec,
+    type: 2}
+  m_PrefabInternal: {fileID: 617977237}
+  m_GameObject: {fileID: 1380347875}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: dc0ead42b40b15f45b2ab0cbf5bfc39a, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1380347878
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300010, guid: 17dea205650a27047b673dfb7425c0ec,
+    type: 2}
+  m_PrefabInternal: {fileID: 617977237}
+  m_GameObject: {fileID: 1380347875}
+  m_Mesh: {fileID: 4300008, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &1508763937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+  m_PrefabInternal: {fileID: 91444565}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1508763938}
+  - component: {fileID: 1508763940}
+  - component: {fileID: 1508763939}
+  m_Layer: 0
+  m_Name: bhutanFarmMain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1508763938
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+  m_PrefabInternal: {fileID: 91444565}
+  m_GameObject: {fileID: 1508763937}
+  m_LocalRotation: {x: -0.70710677, y: 1.5619343e-23, z: 1.6043745e-16, w: 0.7071069}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 272348594}
+  m_Father: {fileID: 1108435399}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1508763939
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9,
+    type: 2}
+  m_PrefabInternal: {fileID: 91444565}
+  m_GameObject: {fileID: 1508763937}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1710a0defa13b764ea24467687b0ab61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1508763940
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9,
+    type: 2}
+  m_PrefabInternal: {fileID: 91444565}
+  m_GameObject: {fileID: 1508763937}
+  m_Mesh: {fileID: 4300004, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &1510092499
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+  m_PrefabInternal: {fileID: 47868649}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1510092500}
+  - component: {fileID: 1510092502}
+  - component: {fileID: 1510092501}
+  m_Layer: 0
+  m_Name: bhutanFarmMain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1510092500
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+  m_PrefabInternal: {fileID: 47868649}
+  m_GameObject: {fileID: 1510092499}
+  m_LocalRotation: {x: -0.70710677, y: 1.5619343e-23, z: 1.6043745e-16, w: 0.7071069}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 432513513}
+  m_Father: {fileID: 1368543898}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1510092501
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: 6f70678e26446e444b5e32bfd45afec0,
+    type: 2}
+  m_PrefabInternal: {fileID: 47868649}
+  m_GameObject: {fileID: 1510092499}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: d35be5e6030fefb439149c7cb9cfd3bd, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1510092502
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: 6f70678e26446e444b5e32bfd45afec0,
+    type: 2}
+  m_PrefabInternal: {fileID: 47868649}
+  m_GameObject: {fileID: 1510092499}
+  m_Mesh: {fileID: 4300004, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1001 &1520726319
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 28.7297249
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .141541004
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 15.481081
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: -.973041236
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: -.230631441
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 8.79805374
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: -1.04308128e-07
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: -.997570395
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.21000348
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .67520237
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .675202787
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .210003689
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.479799479
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .519415319
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .519415379
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .479799747
+      objectReference: {fileID: 0}
+    - target: {fileID: 400008, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: -7.10601234
+      objectReference: {fileID: 0}
+    - target: {fileID: 400010, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 16.6170197
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: f91371871f08e104499d16fe3817380f, type: 2}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: f91371871f08e104499d16fe3817380f, type: 2}
+  m_RootGameObject: {fileID: 1006048641}
+  m_IsPrefabParent: 0
+--- !u!1 &1530277444
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+  m_PrefabInternal: {fileID: 7076968}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1530277445}
+  - component: {fileID: 1530277447}
+  - component: {fileID: 1530277446}
+  m_Layer: 0
+  m_Name: bhutanFarmMain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1530277445
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+  m_PrefabInternal: {fileID: 7076968}
+  m_GameObject: {fileID: 1530277444}
+  m_LocalRotation: {x: -0.70710677, y: 1.5619343e-23, z: 1.6043745e-16, w: 0.7071069}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 348495434}
+  m_Father: {fileID: 688702988}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1530277446
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: 043d7724bd7507943bf0378b45efaabe,
+    type: 2}
+  m_PrefabInternal: {fileID: 7076968}
+  m_GameObject: {fileID: 1530277444}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 37eb0c36a3626e94ead1c24117d7addd, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1530277447
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: 043d7724bd7507943bf0378b45efaabe,
+    type: 2}
+  m_PrefabInternal: {fileID: 7076968}
+  m_GameObject: {fileID: 1530277444}
+  m_Mesh: {fileID: 4300004, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &1534327664
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100006, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+  m_PrefabInternal: {fileID: 7076968}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1534327665}
+  - component: {fileID: 1534327667}
+  - component: {fileID: 1534327666}
+  m_Layer: 0
+  m_Name: bhutanFarmRight_
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1534327665
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400006, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+  m_PrefabInternal: {fileID: 7076968}
+  m_GameObject: {fileID: 1534327664}
+  m_LocalRotation: {x: -0.70710677, y: 1.5619343e-23, z: 1.6043745e-16, w: 0.7071069}
+  m_LocalPosition: {x: 7.160739, y: 0.000000014901161, z: -0.9593239}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1314327759}
+  m_Father: {fileID: 688702988}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1534327666
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300002, guid: 043d7724bd7507943bf0378b45efaabe,
+    type: 2}
+  m_PrefabInternal: {fileID: 7076968}
+  m_GameObject: {fileID: 1534327664}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 37eb0c36a3626e94ead1c24117d7addd, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1534327667
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300002, guid: 043d7724bd7507943bf0378b45efaabe,
+    type: 2}
+  m_PrefabInternal: {fileID: 7076968}
+  m_GameObject: {fileID: 1534327664}
+  m_Mesh: {fileID: 4300012, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1001 &1620510260
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 19.0389233
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: .141536459
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 24.3015499
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .99720794
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: -.0746756271
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 8.37377167
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 2.84590769
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 2.38418579e-07
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: -.663775265
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: .243725836
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: .243726015
+      objectReference: {fileID: 0}
+    - target: {fileID: 400006, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: .663775384
+      objectReference: {fileID: 0}
+    - target: {fileID: 400012, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 100100000, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+  m_RootGameObject: {fileID: 1241947394}
+  m_IsPrefabParent: 0
+--- !u!1 &1700813703
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100004, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+  m_PrefabInternal: {fileID: 1056594074}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1700813704}
+  - component: {fileID: 1700813706}
+  - component: {fileID: 1700813705}
+  m_Layer: 0
+  m_Name: bhutanFarmMain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1700813704
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400004, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+  m_PrefabInternal: {fileID: 1056594074}
+  m_GameObject: {fileID: 1700813703}
+  m_LocalRotation: {x: -0.70710677, y: 1.5619343e-23, z: 1.6043745e-16, w: 0.7071069}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1317147386}
+  m_Father: {fileID: 717234488}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1700813705
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: 6a804a0bb3595294ab0de60dc6d2fa70,
+    type: 2}
+  m_PrefabInternal: {fileID: 1056594074}
+  m_GameObject: {fileID: 1700813703}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 9b114a742d008334c93968811e285ef9, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1700813706
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: 6a804a0bb3595294ab0de60dc6d2fa70,
+    type: 2}
+  m_PrefabInternal: {fileID: 1056594074}
+  m_GameObject: {fileID: 1700813703}
+  m_Mesh: {fileID: 4300004, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &1719489536
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100010, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+  m_PrefabInternal: {fileID: 47868649}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1719489537}
+  - component: {fileID: 1719489539}
+  - component: {fileID: 1719489538}
+  m_Layer: 0
+  m_Name: bhutanFarmLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1719489537
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: 6f70678e26446e444b5e32bfd45afec0, type: 2}
+  m_PrefabInternal: {fileID: 47868649}
+  m_GameObject: {fileID: 1719489536}
+  m_LocalRotation: {x: -0.70710677, y: 1.5619343e-23, z: 1.6043745e-16, w: 0.7071069}
+  m_LocalPosition: {x: -6.626687, y: 0, z: 0.71221733}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 32674921}
+  m_Father: {fileID: 1368543898}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1719489538
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300010, guid: 6f70678e26446e444b5e32bfd45afec0,
+    type: 2}
+  m_PrefabInternal: {fileID: 47868649}
+  m_GameObject: {fileID: 1719489536}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: d35be5e6030fefb439149c7cb9cfd3bd, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1719489539
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300010, guid: 6f70678e26446e444b5e32bfd45afec0,
+    type: 2}
+  m_PrefabInternal: {fileID: 47868649}
+  m_GameObject: {fileID: 1719489536}
+  m_Mesh: {fileID: 4300008, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &1757170293
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100010, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+  m_PrefabInternal: {fileID: 91444565}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1757170294}
+  - component: {fileID: 1757170296}
+  - component: {fileID: 1757170295}
+  m_Layer: 0
+  m_Name: bhutanFarmLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1757170294
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9, type: 2}
+  m_PrefabInternal: {fileID: 91444565}
+  m_GameObject: {fileID: 1757170293}
+  m_LocalRotation: {x: -0.70710677, y: 1.5619343e-23, z: 1.6043745e-16, w: 0.7071069}
+  m_LocalPosition: {x: -5.771528, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 635449439}
+  m_Father: {fileID: 1108435399}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1757170295
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300010, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9,
+    type: 2}
+  m_PrefabInternal: {fileID: 91444565}
+  m_GameObject: {fileID: 1757170293}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1710a0defa13b764ea24467687b0ab61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1757170296
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300010, guid: ce0d3faa8eaa5e240a8fdede8a4ca8a9,
+    type: 2}
+  m_PrefabInternal: {fileID: 91444565}
+  m_GameObject: {fileID: 1757170293}
+  m_Mesh: {fileID: 4300008, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &1763552805
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100010, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+  m_PrefabInternal: {fileID: 7076968}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1763552806}
+  - component: {fileID: 1763552808}
+  - component: {fileID: 1763552807}
+  m_Layer: 0
+  m_Name: bhutanFarmLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1763552806
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400010, guid: 043d7724bd7507943bf0378b45efaabe, type: 2}
+  m_PrefabInternal: {fileID: 7076968}
+  m_GameObject: {fileID: 1763552805}
+  m_LocalRotation: {x: -0.70710677, y: 1.5619343e-23, z: 1.6043745e-16, w: 0.7071069}
+  m_LocalPosition: {x: -5.771528, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 770795665}
+  m_Father: {fileID: 688702988}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1763552807
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300010, guid: 043d7724bd7507943bf0378b45efaabe,
+    type: 2}
+  m_PrefabInternal: {fileID: 7076968}
+  m_GameObject: {fileID: 1763552805}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 37eb0c36a3626e94ead1c24117d7addd, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1763552808
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300010, guid: 043d7724bd7507943bf0378b45efaabe,
+    type: 2}
+  m_PrefabInternal: {fileID: 7076968}
+  m_GameObject: {fileID: 1763552805}
+  m_Mesh: {fileID: 4300008, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &1765998317
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: f91371871f08e104499d16fe3817380f, type: 2}
+  m_PrefabInternal: {fileID: 1520726319}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1765998318}
+  - component: {fileID: 1765998320}
+  - component: {fileID: 1765998319}
+  m_Layer: 0
+  m_Name: bhutanFarmMainBasement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1765998318
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: f91371871f08e104499d16fe3817380f, type: 2}
+  m_PrefabInternal: {fileID: 1520726319}
+  m_GameObject: {fileID: 1765998317}
+  m_LocalRotation: {x: 0.00000011920929, y: -1.1344639e-16, z: 1.1344642e-16, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1788519770}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1765998319
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: f91371871f08e104499d16fe3817380f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1520726319}
+  m_GameObject: {fileID: 1765998317}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1710a0defa13b764ea24467687b0ab61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1765998320
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: f91371871f08e104499d16fe3817380f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1520726319}
+  m_GameObject: {fileID: 1765998317}
+  m_Mesh: {fileID: 4300006, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &1788519769
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100008, guid: f91371871f08e104499d16fe3817380f, type: 2}
+  m_PrefabInternal: {fileID: 1520726319}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1788519770}
+  - component: {fileID: 1788519772}
+  - component: {fileID: 1788519771}
+  m_Layer: 0
+  m_Name: bhutanFarmMain
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1788519770
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400008, guid: f91371871f08e104499d16fe3817380f, type: 2}
+  m_PrefabInternal: {fileID: 1520726319}
+  m_GameObject: {fileID: 1788519769}
+  m_LocalRotation: {x: -0.47979948, y: 0.5194153, z: 0.5194154, w: 0.47979975}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1765998318}
+  m_Father: {fileID: 1006048642}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1788519771
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300006, guid: f91371871f08e104499d16fe3817380f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1520726319}
+  m_GameObject: {fileID: 1788519769}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: e749f699f66516844ab4b3f6d0b5ccd7, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1788519772
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300006, guid: f91371871f08e104499d16fe3817380f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1520726319}
+  m_GameObject: {fileID: 1788519769}
+  m_Mesh: {fileID: 4300004, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &1802187649
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+  m_PrefabInternal: {fileID: 617977237}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1802187650}
+  m_Layer: 0
+  m_Name: bhutanFarmhouseWood
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1802187650
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400012, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+  m_PrefabInternal: {fileID: 617977237}
+  m_GameObject: {fileID: 1802187649}
+  m_LocalRotation: {x: 0, y: -0.20398152, z: 0, w: 0.97897476}
+  m_LocalPosition: {x: 1.0568333, y: 0.14153941, z: -29.788574}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1380347876}
+  - {fileID: 1292759650}
+  - {fileID: 1024258325}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1846407297
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1846407299}
+  - component: {fileID: 1846407298}
+  m_Layer: 0
+  m_Name: Directional light
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!108 &1846407298
+Light:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1846407297}
+  m_Enabled: 1
+  serializedVersion: 8
+  m_Type: 1
+  m_Color: {r: 0.50848836, g: 0.5805729, b: 0.6985294, a: 1}
+  m_Intensity: 0.8
+  m_Range: 10
+  m_SpotAngle: 30
+  m_CookieSize: 10
+  m_Shadows:
+    m_Type: 0
+    m_Resolution: 3
+    m_CustomResolution: -1
+    m_Strength: 0.875
+    m_Bias: 0.1
+    m_NormalBias: 0.4
+    m_NearPlane: 0.2
+  m_Cookie: {fileID: 0}
+  m_DrawHalo: 0
+  m_Flare: {fileID: 0}
+  m_RenderMode: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_Lightmapping: 1
+  m_AreaSize: {x: 1, y: 1}
+  m_BounceIntensity: 1
+  m_ColorTemperature: 6570
+  m_UseColorTemperature: 0
+  m_ShadowRadius: 0
+  m_ShadowAngle: 0
+--- !u!4 &1846407299
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1846407297}
+  m_LocalRotation: {x: 0, y: -0.7071068, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -62.77242, y: 6.563553, z: 14.491786}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 11
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1857030057
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+  m_PrefabInternal: {fileID: 1620510260}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1857030058}
+  - component: {fileID: 1857030060}
+  - component: {fileID: 1857030059}
+  m_Layer: 0
+  m_Name: bhutanFarmMainBasement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1857030058
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+  m_PrefabInternal: {fileID: 1620510260}
+  m_GameObject: {fileID: 1857030057}
+  m_LocalRotation: {x: 0.00000011920929, y: -1.1344639e-16, z: 1.1344642e-16, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 278952433}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1857030059
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: 0266842dedf173d4ea6526527aae4224,
+    type: 2}
+  m_PrefabInternal: {fileID: 1620510260}
+  m_GameObject: {fileID: 1857030057}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1710a0defa13b764ea24467687b0ab61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1857030060
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: 0266842dedf173d4ea6526527aae4224,
+    type: 2}
+  m_PrefabInternal: {fileID: 1620510260}
+  m_GameObject: {fileID: 1857030057}
+  m_Mesh: {fileID: 4300006, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &1963546998
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+  m_PrefabInternal: {fileID: 1620510260}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 1963546999}
+  - component: {fileID: 1963547001}
+  - component: {fileID: 1963547000}
+  m_Layer: 0
+  m_Name: bhutanFarmRightBasement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1963546999
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 0266842dedf173d4ea6526527aae4224, type: 2}
+  m_PrefabInternal: {fileID: 1620510260}
+  m_GameObject: {fileID: 1963546998}
+  m_LocalRotation: {x: 0.00000011920929, y: -1.1344639e-16, z: 1.1344642e-16, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 929276814}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &1963547000
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: 0266842dedf173d4ea6526527aae4224,
+    type: 2}
+  m_PrefabInternal: {fileID: 1620510260}
+  m_GameObject: {fileID: 1963546998}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1710a0defa13b764ea24467687b0ab61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &1963547001
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: 0266842dedf173d4ea6526527aae4224,
+    type: 2}
+  m_PrefabInternal: {fileID: 1620510260}
+  m_GameObject: {fileID: 1963546998}
+  m_Mesh: {fileID: 4300002, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &2000186524
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100012, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+  m_PrefabInternal: {fileID: 1056594074}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2000186525}
+  - component: {fileID: 2000186527}
+  - component: {fileID: 2000186526}
+  m_Layer: 0
+  m_Name: bhutanFarmRightBasement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2000186525
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400012, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+  m_PrefabInternal: {fileID: 1056594074}
+  m_GameObject: {fileID: 2000186524}
+  m_LocalRotation: {x: 0.00000011920929, y: -1.1344639e-16, z: 1.1344642e-16, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 590392106}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &2000186526
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300010, guid: 6a804a0bb3595294ab0de60dc6d2fa70,
+    type: 2}
+  m_PrefabInternal: {fileID: 1056594074}
+  m_GameObject: {fileID: 2000186524}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1710a0defa13b764ea24467687b0ab61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &2000186527
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300010, guid: 6a804a0bb3595294ab0de60dc6d2fa70,
+    type: 2}
+  m_PrefabInternal: {fileID: 1056594074}
+  m_GameObject: {fileID: 2000186524}
+  m_Mesh: {fileID: 4300002, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &2009532368
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+  m_PrefabInternal: {fileID: 1056594074}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2009532369}
+  - component: {fileID: 2009532371}
+  - component: {fileID: 2009532370}
+  m_Layer: 0
+  m_Name: bhutanFarmLeft
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2009532369
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 6a804a0bb3595294ab0de60dc6d2fa70, type: 2}
+  m_PrefabInternal: {fileID: 1056594074}
+  m_GameObject: {fileID: 2009532368}
+  m_LocalRotation: {x: -0.70710677, y: 1.5619343e-23, z: 1.6043745e-16, w: 0.7071069}
+  m_LocalPosition: {x: -5.771528, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1359517500}
+  m_Father: {fileID: 717234488}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &2009532370
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: 6a804a0bb3595294ab0de60dc6d2fa70,
+    type: 2}
+  m_PrefabInternal: {fileID: 1056594074}
+  m_GameObject: {fileID: 2009532368}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 9b114a742d008334c93968811e285ef9, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &2009532371
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: 6a804a0bb3595294ab0de60dc6d2fa70,
+    type: 2}
+  m_PrefabInternal: {fileID: 1056594074}
+  m_GameObject: {fileID: 2009532368}
+  m_Mesh: {fileID: 4300008, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &2014820581
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+  m_PrefabInternal: {fileID: 617977237}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2014820582}
+  - component: {fileID: 2014820584}
+  - component: {fileID: 2014820583}
+  m_Layer: 0
+  m_Name: bhutanFarmRightBasement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2014820582
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+  m_PrefabInternal: {fileID: 617977237}
+  m_GameObject: {fileID: 2014820581}
+  m_LocalRotation: {x: 0.00000011920929, y: -1.1344639e-16, z: 1.1344642e-16, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1024258325}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &2014820583
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: 17dea205650a27047b673dfb7425c0ec,
+    type: 2}
+  m_PrefabInternal: {fileID: 617977237}
+  m_GameObject: {fileID: 2014820581}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1710a0defa13b764ea24467687b0ab61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &2014820584
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: 17dea205650a27047b673dfb7425c0ec,
+    type: 2}
+  m_PrefabInternal: {fileID: 617977237}
+  m_GameObject: {fileID: 2014820581}
+  m_Mesh: {fileID: 4300002, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &2081617265
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100000, guid: f91371871f08e104499d16fe3817380f, type: 2}
+  m_PrefabInternal: {fileID: 1520726319}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2081617266}
+  - component: {fileID: 2081617268}
+  - component: {fileID: 2081617267}
+  m_Layer: 0
+  m_Name: bhutanFarmRightBasement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2081617266
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400000, guid: f91371871f08e104499d16fe3817380f, type: 2}
+  m_PrefabInternal: {fileID: 1520726319}
+  m_GameObject: {fileID: 2081617265}
+  m_LocalRotation: {x: 0.00000011920929, y: -1.1344639e-16, z: 1.1344642e-16, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1011952700}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &2081617267
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300000, guid: f91371871f08e104499d16fe3817380f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1520726319}
+  m_GameObject: {fileID: 2081617265}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1710a0defa13b764ea24467687b0ab61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &2081617268
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300000, guid: f91371871f08e104499d16fe3817380f,
+    type: 2}
+  m_PrefabInternal: {fileID: 1520726319}
+  m_GameObject: {fileID: 2081617265}
+  m_Mesh: {fileID: 4300002, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
+--- !u!1 &2135433522
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 100002, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+  m_PrefabInternal: {fileID: 617977237}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 2135433523}
+  - component: {fileID: 2135433525}
+  - component: {fileID: 2135433524}
+  m_Layer: 0
+  m_Name: bhutanFarmMainBasement
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2135433523
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 400002, guid: 17dea205650a27047b673dfb7425c0ec, type: 2}
+  m_PrefabInternal: {fileID: 617977237}
+  m_GameObject: {fileID: 2135433522}
+  m_LocalRotation: {x: 0.00000011920929, y: -1.1344639e-16, z: 1.1344642e-16, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1292759650}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &2135433524
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 2300004, guid: 17dea205650a27047b673dfb7425c0ec,
+    type: 2}
+  m_PrefabInternal: {fileID: 617977237}
+  m_GameObject: {fileID: 2135433522}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 1710a0defa13b764ea24467687b0ab61, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &2135433525
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 3300004, guid: 17dea205650a27047b673dfb7425c0ec,
+    type: 2}
+  m_PrefabInternal: {fileID: 617977237}
+  m_GameObject: {fileID: 2135433522}
+  m_Mesh: {fileID: 4300006, guid: b07a6d29edf1abd4ea50f3d08075b9aa, type: 3}
