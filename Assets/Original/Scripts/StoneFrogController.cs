@@ -8,6 +8,7 @@ public class StoneFrogController : MonoBehaviour {
     private Animator animate;
     int timer;
     float second = 3.0f;
+    int action = 0;
 
     void Start()
     {
@@ -46,6 +47,11 @@ public class StoneFrogController : MonoBehaviour {
     }
 
     public void Death()
+    {
+        Invoke("Death2", 1.0f);
+    }
+
+    public void Death2()
     {
         animate.SetTrigger("Death");
     }

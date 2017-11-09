@@ -53,3 +53,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   hplabel: {fileID: 0}
   mplabel: {fileID: 0}
+  ehplabel: {fileID: 0}
+  stonefrog: {fileID: 0}
+  unitychan: {fileID: 0}

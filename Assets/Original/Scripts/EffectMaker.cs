@@ -5,10 +5,19 @@ using UnityEngine;
 public class EffectMaker : MonoBehaviour {
     public GameObject effectPrefab;
     public GameObject chara;
+    public IdleChangerorg unity;
+    public BossGameController bgc;
 
     public void MakeEffect()
     {
-        Invoke("MakeEffect2", 3.0f);
+        if (bgc.unitymp() >= 40)
+        {
+            if (unity.GetAction() == 0)
+            {
+                Invoke("MakeEffect2", 6.0f);
+                unity.SetAction(1);
+            }
+        }
     }
 
     public void MakeEffect2()
@@ -20,6 +29,7 @@ public class EffectMaker : MonoBehaviour {
                 chara.transform.position,
                 Quaternion.identity
                 );
+            unity.SetAction(0);
         }
     }
 }

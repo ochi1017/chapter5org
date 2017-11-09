@@ -19,6 +19,9 @@ public class IdleChangerorg : MonoBehaviour
     private AnimatorStateInfo currentState;     // 現在のステート状態を保存する参照
     private AnimatorStateInfo previousState;    // ひとつ前のステート状態を保存する参照
     //public GameObject effectprefab;  //パーティクルのプレファブを格納
+    public BossGameController unity;
+    public Text ehplabel;
+    int action = 0;
 
     // Use this for initialization
     void Start()
@@ -30,7 +33,6 @@ public class IdleChangerorg : MonoBehaviour
         //Invoke("Attack", 3.5f);
         //		animator.SetBool("NowStanding",true); //NowStandingパラメータにtrueをセット
     }
-
     /*
     void OnGUI()
     {
@@ -113,7 +115,12 @@ public class IdleChangerorg : MonoBehaviour
 
     public void Attack()
     {
-        Invoke("Attack2", 3.0f);
+        if (action == 0)
+        {
+            if (unity.unitymp() >= 10)
+                Invoke("Attack2", 3.0f);
+            action = 1;
+        }
     }
 
     public void  Attack2()
@@ -153,20 +160,31 @@ public class IdleChangerorg : MonoBehaviour
                 anim.SetBool("BackSpinSlantSlash01", true);
             if (i == 17)
                 anim.SetBool("QJPVSlash01", true);
+        action = 0;
+        unity.setenemyhp(unity.getenemyhp() - 30);
+        ehplabel.text = "HP" + unity.getenemyhp();
     }
 
     public void Dodge()
     {
-        i = r.Next(2);
-        if(i==0)
-            anim.SetBool("Dash_L", true);
-        if(i==1)
-            anim.SetBool("Dash_R", true);
+        if (unity.unitymp() >= 10)
+        {
+            i = r.Next(2);
+            if (i == 0)
+                anim.SetBool("Dash_L", true);
+            if (i == 1)
+                anim.SetBool("Dash_R", true);
+        }
     }
 
     public void Skill()
     {
-        Invoke("Skill2", 3.0f);
+        if (action == 0)
+        {
+            if (unity.unitymp() >= 20)
+                Invoke("Skill2", 3.0f);
+            action = 1;
+        }
     }
 
     public void Skill2()
@@ -182,11 +200,29 @@ public class IdleChangerorg : MonoBehaviour
             anim.SetBool("DeltaSlash", true);
         if(i==4)
             anim.SetBool("SpiralAttack", true);
+        action = 0;
+        unity.setenemyhp(unity.getenemyhp() - unity.getskillscale());
+        ehplabel.text = "HP" + unity.getenemyhp();
     }
 
     public void Damage()
     {
         anim.SetBool("Damage", true);
+    }
+
+    public void Lose()
+    {
+        anim.SetBool("Lose", true);
+    }
+
+    public int GetAction()
+    {
+        return action;
+    }
+    
+    public void SetAction (int act)
+    {
+        action = act;
     }
 }
 
