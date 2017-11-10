@@ -10,4 +10,20 @@ public class StageController : MonoBehaviour {
     {
         Application.LoadLevel("Main2");
     }
+    public void Stage3Button()
+    {
+        Application.LoadLevel("Main3");
+    }
+    public void Stage4Button()
+    {
+        Application.LoadLevel("Main4");
+    }
+    public void Stage5Button()
+    {
+        Application.LoadLevel("Main5");
+    }
+    public void Stage2Button()
+    {
+        Application.LoadLevel("Main6");
+    }
 }
